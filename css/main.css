@@ -59,3 +59,65 @@ nav{
 .logo img{
     height: 3rem;
 }
+
+#features{
+    background: url(/img/lobby\ 3.jpg);
+    color: var(--blanco);
+    padding-top: 1rem;
+
+}
+.feature-title{
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.feature-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature-blue{
+    width: 25%;
+    min-width: 150px;
+    max-width: 30px;
+    margin: 0.8rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.feature-black{
+    width: 25%;
+    min-width: 150px;
+    max-width: 30px;
+    margin: 0.8rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+ 
+.feature-black i{
+    font-size: 2.2em;
+    margin-bottom: 1.5rem;
+}
+
+.feature-blue i{
+    font-size: 2.2em;
+    margin-bottom: 1.5rem;
+}
+
+.feature-blue{
+    background-color: rgba(0, 50, 94, 0.59);
+}
+.feature-black{
+    background-color: rgba(0, 0, 0, 0.59);
+}
